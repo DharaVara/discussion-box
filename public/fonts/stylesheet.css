@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Roc Grotesk';
+    src: url('./RocGroteskRegular.woff2') format('woff2'),
+        url('./RocGroteskRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roc Grotesk';
+    src: url('./RocGroteskMediumRegular.woff2') format('woff2'),
+        url('./RocGroteskMediumRegular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roc Grotesk';
+    src: url('./RocGroteskBlackRegular.woff2') format('woff2'),
+        url('./RocGroteskBlackRegular.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roc Grotesk';
+    src: url('./RocGroteskThinRegular.woff2') format('woff2'),
+        url('./RocGroteskThinRegular.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roc Grotesk';
+    src: url('./RocGroteskLightRegular.woff2') format('woff2'),
+        url('./RocGroteskLightRegular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roc Grotesk';
+    src: url('./RocGroteskHeavyRegular.woff2') format('woff2'),
+        url('./RocGroteskHeavyRegular.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roc Grotesk';
+    src: url('./RocGroteskBold.woff2') format('woff2'),
+        url('./RocGroteskBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roc Grotesk Wide';
+    src: url('./RocGroteskWideRegular.woff2') format('woff2'),
+        url('./RocGroteskWideRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Gibson */
+
+@font-face {
+    font-family: 'Gibson Book';
+    src: url('./GibsonBookRegular.woff2') format('woff2'),
+        url('./GibsonBookRegular.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+

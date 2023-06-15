@@ -1,0 +1,29 @@
+// Variables
+@import "_variables";
+@import "mixins";
+@import url('https://fonts.cdnfonts.com/css/grotesk');
+@import "/fonts/stylesheet.css";
+body,
+html {
+  height: 100%;
+}
+body {
+  font-family: $font-family-sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.4px;
+  color: #fff;
+  background-color: $text-dark;
+}
+img {
+  width: 100% !important;
+  height: 100% !important;
+  position: unset !important;
+  object-fit: cover;
+  object-position: center;
+}
+.common_padd{
+  padding: 110px 0;
+}
+h1,h2{
+  font-family: "Roc Grotesk Wide";
+}

@@ -1,0 +1,31 @@
+.dsb__story_vblock{ 
+    background-image: url("/images/circle1.png");
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: -30%; 
+    background-size: 75%;
+    h3{
+        font-family: "Roc Grotesk Wide";
+    }
+    p{
+        font-family: "Gibson Book";
+        font-size: 20px;
+        letter-spacing: 0.25px;
+        line-height: 30px;
+        font-weight: normal;
+    }
+    .dsb_bottom_slide{
+        margin-top: 1.5rem;
+        >div{
+            translate: -190px;
+        }
+        .font-wild{
+            font-family: "Roc Grotesk Wide";
+        }
+        .fw-light{
+            font-family: "Roc Grotesk";
+            font-weight: 100;
+        }
+    }
+}
