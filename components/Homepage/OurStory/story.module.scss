@@ -1,31 +1,40 @@
-.dsb__story_vblock{ 
-    background-image: url("/images/circle1.png");
-    height: 600px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: -30%; 
-    background-size: 75%;
-    h3{
-        font-family: "Roc Grotesk Wide";
+.dsb__story_vblock {
+  background-image: url("/images/circle1.png");
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: -50%;
+  background-size: 75%;
+  h3 {
+    font-family: "Roc Grotesk Wide";
+  }
+  p {
+    font-family: "Gibson Book";
+    font-size: 20px;
+    letter-spacing: 0.25px;
+    line-height: 30px;
+    font-weight: normal;
+  }
+  .dsb_bottom_slide {
+    margin-top: 4.5rem;
+    overflow: hidden;
+    .slide {
+      translate: -120px;
+      min-width: 600px;
+      transition: translate 0.2s ease-in-out;
     }
-    p{
-        font-family: "Gibson Book";
-        font-size: 20px;
-        letter-spacing: 0.25px;
-        line-height: 30px;
-        font-weight: normal;
+    &:hover {
+      .slide {
+        translate: -190px;
+      }
     }
-    .dsb_bottom_slide{
-        margin-top: 1.5rem;
-        >div{
-            translate: -190px;
-        }
-        .font-wild{
-            font-family: "Roc Grotesk Wide";
-        }
-        .fw-light{
-            font-family: "Roc Grotesk";
-            font-weight: 100;
-        }
+    .font-wild {
+      font-family: "Roc Grotesk Wide";
+      font-weight: 700;
     }
+    .fw-light {
+      font-family: "Roc Grotesk";
+      font-weight: 100;
+    }
+  }
 }

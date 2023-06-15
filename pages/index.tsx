@@ -1,4 +1,4 @@
-import Banner from "@/components/Homepage/Banner/banner";
+import Banner from "@/components/Homepage/Banner/banner"; 
 import Story from "@/components/Homepage/OurStory/story";
 import Header from "@/components/layout/header/header";
 
@@ -9,6 +9,7 @@ export default function Home() {
         <Header/>
         <Banner/>
         <Story/>
+       
       </main>
     </>
   )

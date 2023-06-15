@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import { Col, Row } from 'react-bootstrap';
 import Image from "next/image";
+import ConversionBox from '../ConversionBox/conversion-box';
 export default function Story() {
     return (
         <>
@@ -19,12 +20,14 @@ export default function Story() {
                         </Col>
                     </Row>
                 </Container>
-                <div className="dsb_bottom_slide border-top border-bottom border-white bg-secondary">
+                <div className="dsb_bottom_slide bg-secondary">
                     <div className="p-4 d-flex justify-content-between">
-                        <h4 className='text-uppercase font-wild m-0'>Virtual events with a <span className="fw-light">Human Touch</span> </h4>
-                        <h4 className='text-uppercase font-wild m-0'>Virtual events with a <span className="fw-light">Human Touch</span> </h4>
+                       <div className="slide"> <h4 className='text-uppercase font-wild m-0'>Virtual events with a <span className="fw-light">Human Touch</span> </h4></div>
+                       <div className="slide"><h4 className='text-uppercase font-wild m-0'>Virtual events with a <span className="fw-light">Human Touch</span> </h4></div>
+                       <div className="slide"><h4 className='text-uppercase font-wild m-0'>Virtual events with a <span className="fw-light">Human Touch</span> </h4></div>
                     </div>
                 </div>
+                <ConversionBox/>
             </section>
 
         </>
